@@ -1,11 +1,18 @@
 #include <iostream>
 
-int main() 
-{
-
-  // Declare a variable
-  int year;
-  // Declare an age
-  int age
+int main() {
+  
+  double tempf;
+  double tempc;
+  
+  // Ask the user
+  std::cout << "Enter the temperature in Fahrenhiet:" << "\n";
+  std::cin >> tempf;
+  
+  
+  
+  tempc = (tempf - 32) / 1.8;
+  
+  std::cout << "The temp is " << tempc << " degrees Celsius.\n";
   
 }
